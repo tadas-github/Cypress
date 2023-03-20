@@ -1,0 +1,50 @@
+{
+  "name": "cypress-typescript-template",
+  "version": "1.0.0",
+  "description": "Cypress TypeScript Github template",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"cypress/**/*.ts\"",
+    "lint:code": "eslint",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvoase/cypress-typescript-template.git"
+  },
+  "keywords": [
+    "testing",
+    "cypress",
+    "template",
+    "typescript"
+  ],
+  "author": "Michael Voase",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvoase/cypress-typescript-template/issues"
+  },
+  "homepage": "https://github.com/mvoase/cypress-typescript-template#readme",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^5.12.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "cypress": "^12.7.0",
+    "cypress-image-snapshot": "^4.0.1",
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "mocha": "^10.0.0",
+    "prettier": "^2.7.1",
+    "ts-loader": "^9.3.0",
+    "tsify": "^5.0.4",
+    "tslint": "^6.1.3",
+    "typescript": "^4.7.3",
+    "webpack": "^5.73.0"
+  }
+}
