@@ -1,4 +1,4 @@
-# cypress-typescript-template
+# cypress-typescript-tests
 Cypress TypeScript Test
 
 ## Structure
