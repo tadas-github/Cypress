@@ -1,10 +1,12 @@
-import "./flight_main_page"
+import "./flight_main_page";
+import "./auth_page";
 
 declare global {
     namespace Cypress {
         interface Chainable {
-            fillFlightDetails(flightDetails): void
+            fillFlightDetails(flightDetails: any): void
             verifyDestinationMatchesDropdownCount(destination: string, expectedCount: string): void
+            signIn(authCode: string): void
         }
     }
 }

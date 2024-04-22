@@ -1,6 +1,7 @@
 export const flightDetails = {
-    from: 'Gatwick',
-    to: 'Madrid',
-    day: '31',
-    passengers: '2'
-  }
+  from: 'Gatwick',
+  to: 'Madrid',
+  day: '27',
+  passengers: '3',
+  class: 'First'
+}
