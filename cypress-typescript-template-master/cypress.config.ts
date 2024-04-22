@@ -10,7 +10,7 @@ export default defineConfig({
       return require('./cypress/plugins/index.js')(on, config)
     },
     defaultCommandTimeout: 10000,
-    baseUrl: 'https://www.britishairways.com',
+    baseUrl: 'https://cypress-interview-private.vercel.app/',
     viewportWidth: 1440,
     viewportHeight: 800,
   },
